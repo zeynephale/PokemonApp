@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <!-- Büyük bir dikey LinearLayout; tüm bileşenler burada yer alacak -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Resim (imgDetail) -->
+        <ImageView
+            android:id="@+id/imgDetail"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/detail_image" />
+
+        <!-- Pokémon Adı (txtDetailName) -->
+        <TextView
+            android:id="@+id/txtDetailName"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Tür (txtDetailType) -->
+        <TextView
+            android:id="@+id/txtDetailType"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Grup (txtDetailGroup) -->
+        <TextView
+            android:id="@+id/txtDetailGroup"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Pokedex No (txtDetailPokedexNo) -->
+        <TextView
+            android:id="@+id/txtDetailPokedexNo"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Boy (txtDetailBoy) -->
+        <TextView
+            android:id="@+id/txtDetailBoy"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Ağırlık (txtDetailAgirlik) -->
+        <TextView
+            android:id="@+id/txtDetailAgirlik"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Yetenekler (txtDetailAbilities) -->
+        <TextView
+            android:id="@+id/txtDetailAbilities"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Zayıflıklar (txtDetailWeaknesses) -->
+        <TextView
+            android:id="@+id/txtDetailWeaknesses"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Açıklama (txtDetailAciklama) -->
+        <TextView
+            android:id="@+id/txtDetailAciklama"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Video (webViewVideo) -->
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/youtube_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

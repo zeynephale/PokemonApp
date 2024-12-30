@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "284305033419",
+    "firebase_url": "https://pokeapp-3a451-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "pokeapp-3a451",
+    "storage_bucket": "pokeapp-3a451.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284305033419:android:345d75bf69e8a0eca4334e",
+        "android_client_info": {
+          "package_name": "com.example.pokemonheroapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBisa1S06FO4JZLmMD4lDCYHiol8CoZYyY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

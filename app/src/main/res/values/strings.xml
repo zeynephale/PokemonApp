@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PokemonHeroApp</string>
+    <string name="pokeball_desc">loading</string>
+    <string name="detail_image">Pokemon Detail Image</string>
+
+</resources>
